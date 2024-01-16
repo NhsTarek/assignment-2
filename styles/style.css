@@ -1,0 +1,91 @@
+/* Google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+
+/* shared styles */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+/* Nav related styles */
+nav {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}
+
+.nav-tittle {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.3rem;
+    padding-left: 5px;
+}
+
+.special{
+    color: #FF5400;
+}
+.nav-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+
+
+/* Small devices styles */
+
+@media screen and (max-width: 600px) {
+    .nav-container{
+        width: 90%;
+    }
+    .nav-items{
+        display: none;
+    }
+    .nav-tittle{
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+
+/* Styles for larger devices */
+
+@media screen and (min-width: 992px) {
+    .ham-img{
+        display: none;
+    }
+    
+}
