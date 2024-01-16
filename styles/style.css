@@ -182,21 +182,70 @@ nav {
     height: 300px;
 }
 
-.resize2{
+.resize2 {
     width: 580px;
     height: 300px;
 }
 
 /* choose us section related styles */
-.choose-us{
+.choose-us {
     text-align: center;
 }
-.choose-descrip{
+
+.choose-descrip {
     width: 700px;
     margin: 0 auto;
+    padding-bottom: 30px;
 
 }
 
+.choose-cards {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+.card1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 48%;
+    margin-right: 4px;
+}
+
+.card2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 48%;
+
+}
+.last-card{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.card3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 48%;
+    margin-left: 300px;
+    margin-top: 20px;
+    
+}
+.card-tittle{
+    color: #131318;
+    font-size: 1.5rem;
+}
 
 
 
@@ -277,12 +326,30 @@ nav {
     .destination .tour-end {
         width: 300px;
     }
-    .row{
+
+    .row {
         flex-direction: column;
-        
+
     }
-    .row img{
+
+    .row img {
         width: 100%;
+    }
+    .choose-descrip{
+        width: 400px;
+    }
+
+    .choose-cards{
+        flex-direction: column;
+    }
+    .card1,
+    .card2{
+        width:90%;
+    }
+    
+    .card3{
+        margin-left: 0;
+        width: 90%;
     }
 
 }
