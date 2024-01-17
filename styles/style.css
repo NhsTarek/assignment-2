@@ -113,6 +113,8 @@ nav {
     font-size: 1rem;
     font-weight: 700;
     border: none;
+    cursor: pointer;
+
 }
 
 .primary-btn img {
@@ -227,11 +229,13 @@ nav {
     width: 48%;
 
 }
-.last-card{
+
+.last-card {
     max-width: 1140px;
     margin: 0 auto;
 }
-.card3{
+
+.card3 {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
@@ -240,14 +244,65 @@ nav {
     width: 48%;
     margin-left: 300px;
     margin-top: 20px;
-    
+
 }
-.card-tittle{
+
+.card-tittle {
     color: #131318;
     font-size: 1.5rem;
 }
 
+/* Discount & deals related styles */
 
+
+/* Perfect place section related styles */
+
+.perfect-container {
+    display: flex;
+    gap: 10px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.perfect-video{
+    padding-top: 40px;
+    
+}
+
+
+.perfect-video video {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+
+}
+
+.perfect-tittle {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.perfect-descrip {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.perfect-sub {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.video-tittle{
+    color: #ffffff;
+    position: relative;
+    bottom:250px;
+    left: 150px;
+    font-size: 1.5rem;
+    width: 300px;
+
+}
 
 
 
@@ -335,23 +390,35 @@ nav {
     .row img {
         width: 100%;
     }
-    .choose-descrip{
+
+    .choose-descrip {
         width: 400px;
     }
 
-    .choose-cards{
+    .choose-cards {
         flex-direction: column;
     }
+
     .card1,
-    .card2{
-        width:90%;
-    }
-    
-    .card3{
-        margin-left: 0;
+    .card2 {
         width: 90%;
     }
 
+    .card3 {
+        margin-left: 0;
+        width: 90%;
+    }
+    .perfect-container{
+        flex-direction: column;
+    }
+    .perfect-video video{
+        width: 100%;
+        
+    }
+    .video-tittle{
+        left: 50px;
+        bottom:280px;
+    }
 }
 
 
