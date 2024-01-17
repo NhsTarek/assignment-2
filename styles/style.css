@@ -59,7 +59,7 @@ nav {
 /* Banner related styles */
 
 .banner {
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -103,6 +103,16 @@ nav {
 
 
 
+}
+.find{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 50px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
 }
 
 .primary-btn {
@@ -194,7 +204,7 @@ nav {
     text-align: center;
 }
 
-.choose-descrip {
+.choose-description{
     width: 700px;
     margin: 0 auto;
     padding-bottom: 30px;
@@ -252,6 +262,47 @@ nav {
     font-size: 1.5rem;
 }
 
+/* Bonus section related styles */
+
+.guide-details{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.guide-tittle{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+}
+
+.guides-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+
+}
+
+.galary{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.galary img{
+    flex-wrap: wrap;
+    width: 520px;
+    height: 350;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+
+
+
 /* Discount & deals related styles */
 
 
@@ -265,9 +316,9 @@ nav {
     padding-top: 60px;
 }
 
-.perfect-video{
+.perfect-video {
     padding-top: 40px;
-    
+
 }
 
 
@@ -283,7 +334,7 @@ nav {
     font-weight: 800;
 }
 
-.perfect-descrip {
+.perfect-description {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
@@ -294,22 +345,120 @@ nav {
     font-size: 1rem;
     font-weight: 700;
 }
-.video-tittle{
+
+.video-tittle {
     color: #ffffff;
     position: relative;
-    bottom:250px;
+    bottom: 250px;
     left: 150px;
     font-size: 1.5rem;
     width: 300px;
 
 }
 
+/* Newsletter section related styles */
+.news-letter{
+    max-height:480px;
+}
+.newsletter-container {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.news-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px;
+    text-align: center;
+}
 
 
+.news-content input,
+.subs {
+    display: block;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 60%;
+    padding: 16px 40px 16px 20px;
+    margin-left: 60px;
+    border: none;
+    margin-bottom: 10px;
+}
 
+.news-content .subs {
+    padding: 14px 210px 14px 130px;
+    background: #FF5400;
+}
 
+.news-content hr {
+    background: #F3F3F3;
+    width: 70%;
+    padding-bottom: 2px;
+    border: none;
+}
 
+.news-tittle {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
 
+.news-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.dis-img{
+    position: relative;
+    bottom: 350px;
+    left: 130px;
+    
+}
+
+/* Footer related styles */
+.footer-sec{
+    background: rgba(19, 19, 24, 0.05);
+    width:100%
+    
+}
+.footer-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.footer-resources{
+    text-align: center;
+}
+.footer-resources img{
+    width: 2%;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+#footer-gap{
+    background: #DDDDDD;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 70%;
+    /* border: none; */
+}
+.footer-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-rights{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 100px;
+}
+   
 
 
 /* Responsive styles */
@@ -339,6 +488,9 @@ nav {
         width: 90vw;
         margin-left: 10px;
     }
+    .find{
+        width: 250px;
+    }
 
     .input-containers {
         flex-direction: column;
@@ -354,7 +506,7 @@ nav {
     }
 
     .primary-btn {
-        width: 250px;
+        width: 200px;
         height: 50px;
     }
 
@@ -391,8 +543,8 @@ nav {
         width: 100%;
     }
 
-    .choose-descrip {
-        width: 400px;
+    .choose-description{
+        width: 360px;
     }
 
     .choose-cards {
@@ -418,6 +570,32 @@ nav {
     .video-tittle{
         left: 50px;
         bottom:280px;
+    }
+    .newsletter-container {
+        flex-direction: column;
+        
+    }
+    .news-content{
+        width: 100%;
+    }
+    .news-content .subs{
+        padding: 14px 170px 14px 100px;
+        width: 275px;
+    }
+    .news-img img{
+        height: 300px;
+        width: 100%;
+    }
+    .dis-img{
+        bottom: 250px;
+        left: 72px;
+    }
+    .news-letter{
+        max-height: 800px;
+    }
+    .galary img{
+        width: 100%;
+        height: 300px;
     }
 }
 
