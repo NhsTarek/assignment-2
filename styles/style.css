@@ -82,13 +82,22 @@ nav {
     padding-top: 100px;
 }
 
+.input-room {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 20px;
+    height: 50px;
+}
+
 .input-containers {
     display: flex;
     justify-content: center;
     border-radius: 8px;
     /* background:rgba(255, 255, 255, 0.30); */
-    padding: 5px;
-    gap: 5px
+    padding-bottom: 200px;
+    gap: 5p
+    
+    
 }
 
 .inputs {
@@ -104,7 +113,8 @@ nav {
 
 
 }
-.find{
+
+.find {
     border-radius: 8px;
     background: #FF5400;
     padding: 16px 50px;
@@ -204,7 +214,7 @@ nav {
     text-align: center;
 }
 
-.choose-description{
+.choose-description {
     width: 700px;
     margin: 0 auto;
     padding-bottom: 30px;
@@ -264,19 +274,19 @@ nav {
 
 /* Bonus section related styles */
 
-.guide-details{
+.guide-details {
     text-align: center;
     margin-top: 80px;
 }
 
-.guide-tittle{
+.guide-tittle {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
-    
+
 }
 
-.guides-description{
+.guides-description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -285,14 +295,15 @@ nav {
 
 }
 
-.galary{
+.galary {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1140px;
 }
-.galary img{
+
+.galary img {
     flex-wrap: wrap;
     width: 520px;
     height: 350;
@@ -357,9 +368,10 @@ nav {
 }
 
 /* Newsletter section related styles */
-.news-letter{
-    max-height:480px;
+.news-letter {
+    max-height: 480px;
 }
+
 .newsletter-container {
     display: flex;
     max-width: 1140px;
@@ -406,59 +418,62 @@ nav {
     font-weight: 800;
 }
 
-.news-description{
+.news-description {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
 }
-.dis-img{
+
+.dis-img {
     position: relative;
     bottom: 350px;
     left: 130px;
-    
+
 }
 
 /* Footer related styles */
-.footer-sec{
+.footer-sec {
     background: rgba(19, 19, 24, 0.05);
-    width:100%
-    
+    width: 100%
 }
-.footer-details{
+
+.footer-details {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-    
-.footer-resources{
+
+.footer-resources {
     text-align: center;
 }
-.footer-resources img{
+
+.footer-resources img {
     width: 2%;
     margin-right: 5px;
     margin-top: 20px;
 }
 
-#footer-gap{
+#footer-gap {
     background: #DDDDDD;
     margin-top: 60px;
     margin-bottom: 60px;
     width: 70%;
     /* border: none; */
 }
-.footer-description{
+
+.footer-description {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
 }
 
-.footer-rights{
+.footer-rights {
     color: #131318;
     font-size: 1rem;
     font-weight: 300;
     padding-bottom: 100px;
 }
-   
+
 
 
 /* Responsive styles */
@@ -488,7 +503,8 @@ nav {
         width: 90vw;
         margin-left: 10px;
     }
-    .find{
+
+    .find {
         width: 250px;
     }
 
@@ -496,6 +512,10 @@ nav {
         flex-direction: column;
         align-items: center;
 
+    }
+
+    .input-room {
+        height: 50px;
     }
 
     .inputs {
@@ -543,7 +563,7 @@ nav {
         width: 100%;
     }
 
-    .choose-description{
+    .choose-description {
         width: 360px;
     }
 
@@ -560,40 +580,50 @@ nav {
         margin-left: 0;
         width: 90%;
     }
-    .perfect-container{
+
+    .perfect-container {
         flex-direction: column;
     }
-    .perfect-video video{
+
+    .perfect-video video {
         width: 100%;
-        
+
     }
-    .video-tittle{
+
+    .video-tittle {
         left: 50px;
-        bottom:280px;
+        bottom: 280px;
     }
+
     .newsletter-container {
         flex-direction: column;
-        
+
     }
-    .news-content{
+
+    .news-content {
         width: 100%;
     }
-    .news-content .subs{
+
+    .news-content .subs {
         padding: 14px 170px 14px 100px;
         width: 275px;
     }
-    .news-img img{
+
+    .news-img img {
         height: 300px;
         width: 100%;
     }
-    .dis-img{
+
+    .dis-img {
         bottom: 250px;
         left: 72px;
     }
-    .news-letter{
+
+    .news-letter {
         max-height: 800px;
     }
-    .galary img{
+
+    .galary img {
         width: 100%;
         height: 300px;
     }
